@@ -34,6 +34,13 @@ public class SpeakAndSpell {
 
 		// 5. repeat the process for other words
 		
+		speak("Spell headache")
+		String answer=JOptionPane.showInputDialog("Spell");
+		if (answer.equals("headache"))
+			JOptionPane.showConfirmDialog(null, "Correct, you win");
+		else JOptionPane.showConfirmDialog(null,"Wrong, try again");
+		
+		
 		
 	}
 
